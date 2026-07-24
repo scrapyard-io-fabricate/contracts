@@ -40,6 +40,13 @@ interface Program extends WireframeServiceContainer
     public function configPath(string $path = ''): string;
 
     /**
+     * Determine if the application is running with debug mode enabled.
+     *
+     * @return bool
+     */
+    public function hasDebugModeEnabled(): bool;
+
+    /**
      * Get the path to the database directory.
      *
      * @param string $path
