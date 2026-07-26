@@ -10,7 +10,7 @@ interface CacheFactory
      * Get a cache store instance by name.
      *
      * @param UnitEnum|string|null $name
-     * @return CacheRepository
+     * @return Repository
      */
-    public function store(UnitEnum|string|null $name = null): CacheRepository;
+    public function store(UnitEnum|string|null $name = null): Repository;
 }

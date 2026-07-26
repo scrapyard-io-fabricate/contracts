@@ -239,6 +239,13 @@ interface Program extends WireframeServiceContainer
     public function environmentPath(): string;
 
     /**
+     * Get the fully qualified path to the environment file.
+     *
+     * @return string
+     */
+    public function environmentFilePath(): string;
+
+    /**
      * Detect the application's current environment.
      *
      * @param  Closure  $callback
