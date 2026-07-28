@@ -3,7 +3,6 @@
 namespace Fabricate\Contracts\Framebuffers;
 
 use Fabricate\Framebuffers\FormatSpec;
-use Fabricate\Contracts\Framebuffers\Framebuffer;
 
 interface BufferFactory
 {

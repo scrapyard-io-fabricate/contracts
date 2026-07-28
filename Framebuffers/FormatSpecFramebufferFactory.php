@@ -8,7 +8,7 @@ use Fabricate\Contracts\Framebuffers\Enums\Endianness;
 use Fabricate\Contracts\Framebuffers\Enums\PageAxis;
 use Fabricate\Contracts\Framebuffers\Enums\PixelFormat;
 use Fabricate\Contracts\Framebuffers\Enums\ScanDirection;
-use Fabricate\Framebuffers\ChannelPalette;
+use Fabricate\Framebuffers\DataObjects\ChannelPalette;
 
 interface FormatSpecFramebufferFactory
 {
